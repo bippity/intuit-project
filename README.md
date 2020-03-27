@@ -1,2 +1,2 @@
-Test for DeNoising method
-following https://docs.opencv.org/3.4/d5/d69/tutorial_py_non_local_means.html
+Test for Thresholding/Binarization method
+following https://docs.opencv.org/master/d7/d4d/tutorial_py_thresholding.html
