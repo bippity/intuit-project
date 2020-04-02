@@ -53,7 +53,7 @@ def main():
     
     
     # Output processed images into output directory
-    output_dir = "results"
+    output_dir = "denoised"
     try:
         os.makedirs(output_dir)
     except FileExistsError:
