@@ -15,7 +15,7 @@ from matplotlib import pyplot as plt
 
 
 def runPreprocess(image_dir):
-    imageCount = 1
+    imageCount = 100
     images = []
     tempImages = [] 
     times = []
