@@ -59,7 +59,7 @@ def main():
     
     
     # Output processed images into output directory
-    output_dir = "denoised"
+    output_dir = "binarized"
     try:
         os.makedirs(output_dir)
     except FileExistsError:
@@ -69,6 +69,6 @@ def main():
         tempImage = processedImages[i]
         cv.imwrite(output_dir + "/W2_XL_input_noisy_" + str(1000 + i) + ".jpg", tempImage)
         
-    print("Saved processed images to denoised directory")
+    print("Saved processed images to binarized directory")
 
 main()
